@@ -1,19 +1,23 @@
-DOCKER CONTAINER:
+<b>DOCKER CONTAINER:</b>
 
-To run:
+<b>To run:</b>
 
-docker-compose up -d
+<i>docker-compose up -d</i>
 
 this brings up selenium hub and nodes with browser images.
 
-npm test
+<i>npm test</i>
 
-runs the tests on these nodes
+runs the tests on the nodes
 
-If you wish to view the test execution on browser, open vnc viewer and login to localhost: (5901/5902)
+To view the test execution on browser while running, open vnc viewer and login to localhost: (5901/5902)
 
-LOGS:
+<b>LOGS:</b>
 
-spec logs can be seen on terminal
+there are two formats of logs in this repo:
 
-video logs in "results" folder
+
+<b>1) spec logs:</b> which can be viewed in terminal, this is for debugging of the test scripts
+
+
+<b>2) video logs:</b> these logs generated is saved in <b>"_results_"</b> folder
